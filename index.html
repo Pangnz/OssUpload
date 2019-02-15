@@ -70,14 +70,9 @@
 								contentType: false, //避免服务器不能正常解析文件---------具体的可以查下这些参数的含义
 								dataType: 'json', //不涉及跨域  写json即可
 								type: 'post',
-								success: function(response) { //callbackHost：success,request中就是 回调的一些信息，包括状态码什么的 
-									// console.log(response);
-								},
-								error: function(error) {
-									alert("上传图片成功");
-									verifyImg = `${uploadObj.host}/${uploadObj.dir}/${file.name}`;
-								}
 							});
+							// 上传成功提示
+							alert('上传成功');
 						} else {
 							alert(`${response && response.header.msg[0]}`);
 						}
