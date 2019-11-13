@@ -1,7 +1,5 @@
 /**
  * @description - drag-拖动缩放类
- * @author - Candy
- * @creationTime - 2018-12-11
  * 
  * @修改人 - XXX
  * @修改记录 - XXX
